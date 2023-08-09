@@ -1,0 +1,50 @@
+const config = {
+    symptoms: [
+        'Pulsating',
+        'Sensitivity to light',
+        'Sensitivity to sound',
+        'Sensitivity to smells',
+        'Nausea',
+        'Vomitting',
+        'Stress',
+        'Drowsiness',
+        'Vertigo',
+        'Tension',
+        'Numbness',
+        'Visual disturbances',
+        'Hallucinations',
+        'Blurred Vision',
+        'Blind Spots',
+        'Tunnel Vision',
+        'Aura'
+    ],
+    locations: [
+        'Forehead',
+        'Temples',
+        'Crown of the head',
+        'Left Eye',
+        'Right Eye',
+        'Arms',
+        'Legs',
+        'Neck/shoulder',
+        'Sinuses',
+        'Jaw'
+    ],
+    medications: [
+        'Acetaminophen (Tylenol)',
+        'Aspirin',
+        'Ibuprofen (Advil, Motrin)',
+        'Naproxen (Aleve)',
+        'Triptans (sumatriptan, rizatriptan, etc.)',
+        'Ergotamines (dihydoergotamine, ergotamine, tartrate)',
+        'Opiods (codeine, oxycodone, hydrocodone)',
+        'Butalbital-containing medications (Fiorinal, Floricet)',
+        'Preventive medications (beta blockers, calcium channel blockers)', 
+        'Antidepressants (amitriptyline, venlafaxine, etc.)',
+        'Antiepileptic drugs (topiramate, valproic acid, etc.',
+        'Botox injections',
+        'CGRP monoclonal antibodies (erenumab, fremanezumab, etc.)',
+    ],
+};
+
+export default config
