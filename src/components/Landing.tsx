@@ -27,6 +27,10 @@ export default function Landing() {
             setLoading(true);
             let { data, error } = await supabase.auth.signInWithOtp({
                 email,
+                options: {
+                    emailRedirectTo: 'https://migraine-buddy.vercel.app/',
+                  },
+
             });
         } catch (error) {
             console.log(error);
